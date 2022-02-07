@@ -562,6 +562,29 @@ box-sizing: border-box;
 .item-img{
     background: #FFFFFF;
 box-sizing: border-box;
+position: relative;
+}
+.item-img:hover .foto-top-text{
+    transform: translateY(0);
+}
+.foto-top-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+line-height: calc(28 / 18);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: rgba(33, 150, 243, 0.9);
+padding: 63px 24px;
+height: 101%;
+/* border-top: -1,250px; */
+transform: translateY(100%);
+transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foto-wrap{
+    position: relative;
+    overflow: hidden;
 }
 .foto-title{
     padding: 20px 24px 20px 24px;
