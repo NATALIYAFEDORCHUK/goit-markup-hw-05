@@ -315,9 +315,7 @@ letter-spacing: 0.03em;
 color: var(--heder-link-mailto);
 margin-bottom: 50px;
 }
-/* .work-item{
-position: relative;
-} */
+
 .work-thumb{
    display: flex;
    align-items: flex-end;
@@ -745,7 +743,7 @@ margin-bottom: 20px;
 .invite-socials-item:last-child{
     margin-right: 0;
 }   
-
+/*модальное окно*/
 .backdrop{
    width: 100vw;
 height: 100vh;
@@ -762,7 +760,7 @@ transition: opaciti 250ms, visibility 250ms;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 position: absolute;
-top: 45%;
+top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 
